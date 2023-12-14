@@ -1,28 +1,27 @@
-# React Native Restaurant Finder Uygulaması
+# React Native Restaurant Finder Application
 
-Bu uygulama, React Native kullanılarak geliştirilmiş bir restoran bulucu uygulamasıdır. Uygulama, Yelp API'sini kullanarak fiyatlarına göre restoranları üç farklı kategoride listeleyerek kullanıcılara sunar: "Ucuz", "Uygun" ve "Pahalı".
+This application is a restaurant locator app developed using React Native. The app utilizes the Yelp API to list restaurants in three different categories based on their prices: "Cheap", "Moderate", and "Expensive".
 
-## Nasıl Çalıştırılır
+## How to Run
 
-1. Proje dosyalarını bilgisayarınıza klonlayın.
-2. Gerekli bağımlılıkları yüklemek için terminalde proje klasörüne gidin ve `npm install` komutunu çalıştırın.
-3. Yelp API'ye erişim için API_URL ve API_TOKEN değişkenlerini ayarlamak için `hooks/useResult.js` dosyasını düzenleyin. API detayları için Yelp API geliştirici sitesini ziyaret edebilirsiniz.
+1. Clone the project files to your computer.
+2. Navigate to the project folder in the terminal and run the `npm install` command to install necessary dependencies.
+3. To access the Yelp API, set the API_URL and API_TOKEN variables by editing the `hooks/useResult.js` file. You can find API details by visiting the Yelp API developer site.
 
-## Kullanım
+## Usage
 
-Uygulama, kullanıcıya farklı konumlarda restoran arama imkanı sunar. Arama konumunu değiştirmek için `hooks/useResult.js` dosyasındaki `location` kısmını güncelleyebilirsiniz.
+The app allows users to search for restaurants in different locations. You can modify the search location by updating the `location` section in the `hooks/useResult.js` file.
 
-## Restoran Kategorileri
+## Restaurant Categories
 
-- **Ucuz:** Bu kategoride fiyatı uygun olan restoranlar listelenir.
-- **Uygun:** Orta seviye fiyat aralığındaki restoranlar burada bulunur.
-- **Pahalı:** Daha yüksek fiyat aralığına sahip restoranlar bu kategoride yer alır.
+- **Cheap:** Lists restaurants with affordable prices.
+- **Moderate:** Displays restaurants in the mid-price range.
+- **Expensive:** Shows restaurants with higher price ranges.
 
-## Restoran Detayları
+## Restaurant Details
 
-Her restoranın detay sayfasında aşağıdaki bilgilere erişilebilir:
+Accessible information on each restaurant's detail page includes:
 
-- Restoran İsmi
-- Telefon Numarası
-- Açık/Kapalı Durumu
-
+- Restaurant Name
+- Phone Number
+- Open/Closed Status
