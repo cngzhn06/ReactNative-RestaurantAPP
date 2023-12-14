@@ -26,10 +26,3 @@ Her restoranın detay sayfasında aşağıdaki bilgilere erişilebilir:
 - Telefon Numarası
 - Açık/Kapalı Durumu
 
-## Katkıda Bulunma
-
-Herhangi bir katkı yapmak isterseniz, lütfen forklayın ve pull request gönderin. Her türlü katkı ve öneriye açığız!
-
-## Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Detaylar için `LICENSE` dosyasını inceleyebilirsiniz.
